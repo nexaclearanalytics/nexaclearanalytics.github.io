@@ -717,7 +717,7 @@ async function handleFormspreeSubmit(e) {
             // Formspree will handle redirect via _next parameter
             // Optional: Manual redirect after delay
             setTimeout(() => {
-                window.location.href = 'https://nexaclearanalytics.github.io/thankyou.html';
+                window.location.href = 'https://nexaclearanalytics.github.io/thank-you.html';
             }, 2000);
             
         } else {
