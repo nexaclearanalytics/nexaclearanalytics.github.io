@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Nexa Clear Analytics for data analytics consulting, custom solutions, and business intelligence services.">
+    <title>Contact Us - Nexa Clear Analytics</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/favicon.png" alt="Nexa Clear Analytics" class="logo-img">
+                    <div class="logo-content">
+                        <span class="logo-text">Nexa Clear Analytics</span>
+                        <span class="logo-tagline">Clear Data • Clear Insights • Better Decisions</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link">Our Expertise</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch to start your data transformation journey</p>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section class="section contact-section">
+    <div class="container">
+        <div class="contact-grid">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>Ready to transform your data into actionable insights? We'd love to hear from you.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>nexaclearanalytics@gmail.com</p>
+                        </div>
+                    </div>
+                                        
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p>Saturday: 10:00 AM - 2:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Office Location</h3>
+                            <p>Karachi Central District</p>
+                            <p>Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-choose-us">
+                    <h3>Why Choose Us?</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Free initial consultation</li>
+                        <li><i class="fas fa-check"></i> Customized solutions</li>
+                        <li><i class="fas fa-check"></i> Quick response time</li>
+                        <li><i class="fas fa-check"></i> Ongoing support</li>
+                        <li><i class="fas fa-check"></i> Industry expertise</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+    <h2>Send us a Message</h2>
+    
+    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="b121f601-248b-46db-a43a-fa6fd87281f6">
+        <input type="hidden" name="redirect" value="thankyou.html">
+
+        <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error-message" id="name-error"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-message" id="email-error"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+            <span class="error-message" id="phone-error"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company">
+            <span class="error-message" id="company-error"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="service">Service Interested In *</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="dashboard">Business Intelligence Dashboards</option>
+                <option value="analytics">Predictive Analytics</option>
+                <option value="reporting">Automated Reporting</option>
+                <option value="consultation">Analytics Consultation</option>
+                <option value="training">Data Analytics Training</option>
+                <option value="other">Other</option>
+            </select>
+            <span class="error-message" id="service-error"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required placeholder="Tell us about your project or requirements..."></textarea>
+            <span class="error-message" id="message-error"></span>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <div id="form-message"></div>
+    </form>
+</div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Consultation Section -->
+<section class="section consultation-section">
+    <div class="container">
+        <div class="consultation-grid">
+            <div class="consultation-content">
+                <h2>Free Initial Consultation</h2>
+                <p>Get in touch with us to discuss your requirements and explore how we can support your business objectives.</p>
+                <div class="consultation-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Requirements Discussion</h4>
+                            <p>Clear and detailed understanding of your needs</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <div>
+                            <h4>Expert Advice</h4>
+                            <p>Professional insights tailored to your business goals</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <h4>Solution Overview</h4>
+                            <p>Preliminary approach designed for your unique challenges</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="consultation-cta">
+                <div class="cta-card">
+                    <h3>Start Your Consultation</h3>
+                    <p>Share your project details with us and take the first step towards better insights.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html#contact-form" class="consultation-get-started-btn" id="consultation-get-started">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+<section class="section faq-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick answers to common questions about our services</p>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>How quickly can you start a project?</h3>
+                <p>We can typically begin within 1-2 weeks after the initial discussion, depending on project complexity. For urgent requirements, we offer expedited onboarding.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you work with small businesses?</h3>
+                <p>Absolutely! We specialize in making analytics accessible for businesses of all sizes, with scalable solutions that grow with your organization.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What information do you need for a quote?</h3>
+                <p>We need to understand your data sources, objectives, timeline, and specific requirements. Once we receive the details, we can provide an accurate estimate promptly.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you provide training and support?</h3>
+                <p>Yes, we provide comprehensive training, documentation, and ongoing support for all our solutions to ensure you get maximum value from your investment.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What industries do you specialize in?</h3>
+                <p>We have expertise across various sectors including retail, healthcare, finance, manufacturing, and more. Our solutions are adaptable to any industry.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do you ensure data security?</h3>
+                <p>We follow industry best practices for data security, including encryption, access controls, and compliance with relevant data protection regulations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nexa Clear Analytics</h3>
+                    <p>Transforming complex data into clear, actionable insights that drive business growth and innovation.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Our Expertise</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="services.html">Data Analytics</a>
+                    <a href="services.html">Business Intelligence</a>
+                    <a href="services.html">Predictive Modeling</a>
+                    <a href="services.html">Dashboard Development</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> nexaclearanalytics@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Karachi Central District, Karachi, Pakistan</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> Nexa Clear Analytics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
