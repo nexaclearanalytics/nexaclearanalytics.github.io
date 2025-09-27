@@ -105,14 +105,14 @@
             </div>
 
             <!-- Contact Form -->
-            <div class="contact-form">
+        <!-- Contact Form -->
+<div class="contact-form">
     <h2>Send us a Message</h2>
     
-    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <form id="contact-form">
         <!-- Web3Forms Access Key -->
         <input type="hidden" name="access_key" value="b121f601-248b-46db-a43a-fa6fd87281f6">
-        <input type="hidden" name="redirect" value="https://nexaclearanalytics.github.io/thank-you.html">
-
+        
         <div class="form-group">
             <label for="name">Full Name *</label>
             <input type="text" id="name" name="name" required>
@@ -157,12 +157,15 @@
             <span class="error-message" id="message-error"></span>
         </div>
         
-        <button type="submit" class="btn btn-primary">Send Message</button>
+        <button type="submit" class="btn btn-primary" id="submit-btn">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loading" style="display: none;">
+                <i class="fas fa-spinner fa-spin"></i> Sending...
+            </span>
+        </button>
         <div id="form-message"></div>
     </form>
 </div>
-        </div>
-    </div>
 </section>
 
 
@@ -297,3 +300,4 @@
 </body>
 
 </html>
+
